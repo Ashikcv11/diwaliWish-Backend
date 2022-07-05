@@ -48,7 +48,7 @@ app.post('/api/mail',(req, res)=>{
         to: data.email,
         // to: this.data.email,
         subject: 'happy diwali',
-        text: 'hii '+data.fName+' your friend '+ data.Name +' send you diwali wishes, check it   👉🏻👉🏻  ' + 'https://diwaliwishes2022.herokuapp.com/' +data.id+''
+        text: 'hii '+data.fName+' your friend '+ data.Name +' send you diwali wishes, check it   👉🏻👉🏻  ' + 'https://diwaliwishes2022.herokuapp.com/wish/' +data.id+''
 
     };
 
